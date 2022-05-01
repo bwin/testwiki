@@ -2,8 +2,11 @@
 repo:
 - '*'
 
+actions:
+- .github/workflows
+
 package:
-- 'package.json'
+- package.json
 
 # Add 'core' label to any change within the 'core' package
 core:
